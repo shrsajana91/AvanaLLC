@@ -41,7 +41,7 @@
             </a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="#"> Home</a></li>
-                <li><a href="#"> ZuRide </a></li>
+                <li><a href="#zuride"> ZuRide </a></li>
                 <li><a href="#"> Bunjee</a></li>
                 <li><a href="#"> Login</a></li>
             </ul>
@@ -50,7 +50,7 @@
     <!-- logic for menu for mobile -->
     <ul class="sidenav" id="menu-link">
         <li><a href="#"> Home</a></li>
-        <li><a href="#"> ZuRide </a></li>
+        <li><a href="#zuride"> ZuRide </a></li>
         <li><a href="#"> Bunjee</a></li>
         <li><a href="#"> Login</a></li>
     </ul>
@@ -58,7 +58,7 @@
 </header>
 
 <!-- Photo grid -->
-<section class="container section" id="photos">
+<section class="container section" id="zuride">
     <div class="row">
         <div class="col s12 l4">
             <img src="image/animal.png" alt="" class="responsive-img materialboxed"></img>
