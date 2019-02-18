@@ -8,19 +8,17 @@
                 <i class="material-icons">menu</i>
             </a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#"> Home</a></li>
-                <li><a href="#"> ZuRide </a></li>
-                <li><a href="#"> Bunjee</a></li>
-                <li><a href="#"> Login</a></li>
+                <?php foreach($menu as $item) { ?>
+                <li><a href="<?php echo $item['url']; ?>"><?php echo $item['name']; ?></a></li>
+                <?php } ?>
             </ul>
         </div>
     </nav>
     <!-- logic for menu for mobile -->
     <ul class="sidenav" id="menu-link">
-        <li><a href="#"> Home</a></li>
-        <li><a href="#"> ZuRide </a></li>
-        <li><a href="#"> Bunjee</a></li>
-        <li><a href="#"> Login</a></li>
+        <?php foreach($menu as $item) { ?>
+        <li><a href="#"><?php echo $item['name']; ?></a></li>
+        <?php } ?>
     </ul>
 
 </header>

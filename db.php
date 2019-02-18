@@ -6,10 +6,14 @@ $database = "crm";
 
 try{
 
-    $conn = new PDO("mysql:host=$servername;dbname=$database",
+    $connection = new PDO("mysql:host=$servername;dbname=$database",
         $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Connected";
+    $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $sql = $connection->prepare('SELECT name, url FROM menu');
+    $sql->execute();
+
+    $result = $sql->setFetchMode(PDO::FETCH_ASSOC);
+    $menu = $sql->fetchAll();
 }
 catch(PDOException $e)
 {

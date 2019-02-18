@@ -1,5 +1,5 @@
 <!-- Photo grid product section -->
-<section class="container section" id="photos">
+<section class="container section" id="zuride">
     <div class="row">
         <div class="col s12 l4">
             <img src="image/animal.png" alt="" class="responsive-img materialboxed"></img>
