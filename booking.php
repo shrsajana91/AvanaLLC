@@ -30,9 +30,9 @@ l
         <div class="input-field col s12">
             <select class ="icons">
                 <option value="" disabled selected> Select Ride</option>
-                <option value="" data-icon ="image/pig.jpg"> Pig</option>
-                <option value=""  data-icon ="image/pig.jpg">Tiger</option>
-                <option value="" data-icon ="image/pig.jpg"> Elephant</option>
+                <?php  foreach($product as $item){ ?>
+                <option value="" data-icon =<?php echo $item['picture']; ?>> <?php echo $item['name'];} ?></option>
+
             </select>
             <label>Select any</label>
 

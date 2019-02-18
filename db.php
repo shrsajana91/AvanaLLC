@@ -14,6 +14,13 @@ try{
 
     $result = $sql->setFetchMode(PDO::FETCH_ASSOC);
     $menu = $sql->fetchAll();
+
+    $sqlp =$connection->prepare('SELECT name,picture, quantity, price FROM product');
+    $sqlp->execute();
+
+    $resultp =$sqlp->setFetchMode(PDO::FETCH_ASSOC);
+    $product =$sqlp->fetchAll();
+
 }
 catch(PDOException $e)
 {
