@@ -66,3 +66,9 @@ ALTER TABLE `product`
 --
 ALTER TABLE `user`
   MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT;
+
+ALTER TABLE `content`
+  MODIFY `content_id` int(11) NOT NULL AUTO_INCREMENT;
+
+ALTER TABLE `content`
+  ADD PRIMARY KEY (`content_id`);

@@ -1,0 +1,2 @@
+INSERT INTO crm.content (content_id, picture, title, wording) VALUES (1, 'image/animal.png', 'ZuRide', 'This is ZuRide. Let''s ride!');
+INSERT INTO crm.content (content_id, picture, title, wording) VALUES (2, 'image/bunjee.jpg', 'Bunjee', 'This is Bunjee. Let''s jump!');
