@@ -10,11 +10,11 @@ l
         <div class="col s12">
             <h3 class="green"> Select Time</h3>
         </div>
-        <form action="/order.php" method="post">
+        <form action="order.php" method="post">
             <div class="input-field col s12">
 
 
-                <select>
+                <select name="duration">
                     <option value="" disabled selected> Select Time</option>
                     <option value="15"> 15 minutes</option>
                     <option value="30">30 minutes</option>
@@ -32,12 +32,12 @@ l
 
             <div class="input-field col s12">
 
-                <select class="icons">
+                <select class="icons" name="ride">
                     <option value="" disabled selected> Select Ride</option>
                     <?php foreach ($product
 
                     as $item){ ?>
-                    <option value="<?php echo $item['price']; ?>" data-icon=<?php echo $item['picture']; ?>>
+                    <option value="<?php echo $item['name']; ?>" data-icon=<?php echo $item['picture']; ?>>
                         <?php echo $item['name'] . ' - $' . $item['price'] . '/15 min.';
                         } ?></option>
 
