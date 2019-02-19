@@ -1,5 +1,5 @@
 <!-- Photo grid product section -->
-<section class="container section" id="zuride">
+<section class="container section" id="order">
     <?php
     foreach($content as $item){?>
     <div class="row">
