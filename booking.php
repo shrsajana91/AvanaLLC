@@ -13,8 +13,8 @@ l
         <div class="input-field col s12">
             <select >
                 <option value="" disabled selected> Select Time</option>
-                <option value="1"> 15 minutes</option>
-                <option value="2">30 minutes</option>
+                <option value="15"> 15 minutes</option>
+                <option value="30">30 minutes</option>
 
             </select>
             <label>Select any</label>
@@ -31,7 +31,8 @@ l
             <select class ="icons">
                 <option value="" disabled selected> Select Ride</option>
                 <?php  foreach($product as $item){ ?>
-                <option value="" data-icon =<?php echo $item['picture']; ?>> <?php echo $item['name'];} ?></option>
+                <option value="<?php echo $item['price']; ?>" data-icon =<?php echo $item['picture']; ?>>
+                    <?php echo $item['name'] . ' - $' . $item['price'] . '/15 min.';} ?></option>
 
             </select>
             <label>Select any</label>
