@@ -6,6 +6,8 @@ include("db.php");
 <!doctype html>
 <html lang="en">
 <head>
+
+    //create separate fie for stylesheet
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -42,6 +44,7 @@ include('contact.php');
 include('parallex2.php');
 include('booking.php');
 include('footer.php');
+
 
 
 ?>

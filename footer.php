@@ -33,7 +33,7 @@
         $('.materialboxed').materialbox();
         $('.parallax').parallax();
         $('.datepicker').datepicker({
-            disableWeekends: true
+
         })
     });
 
