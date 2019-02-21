@@ -7,7 +7,7 @@ include("db.php");
 <html lang="en">
 <head>
 
-    //create separate fie for stylesheet
+
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 

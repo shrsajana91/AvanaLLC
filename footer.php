@@ -34,7 +34,8 @@
         $('.parallax').parallax();
         $('.datepicker').datepicker({
 
-        })
+        });
+        $('.timepicker').timepicker();
     });
 
 
